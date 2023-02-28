@@ -58,7 +58,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
     color: #008000;
 }
 .fab {
@@ -77,4 +77,22 @@
 }
 #contact {
     padding-bottom: 4rem;
+}
+
+#privateClient{
+    padding-bottom: .4rem;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .centerMeMobile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #mapDiv{
+        margin: 0 auto;
+    }
 }
