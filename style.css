@@ -28,7 +28,22 @@
     width: 80%;
 }
 
-/* services section css */
+/* languages section */
+.card-body:hover .languagesIcon {
+    color: #008000;
+}
+.languagesIcon {
+    font-size: 72px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+#languages{
+    padding-top: 5%;
+}
+
+/* skillss section css */
 .servicesText.card {
     height: 280px;
     cursor: pointer;
@@ -44,9 +59,12 @@
 .card:hover .servicesIcon {
     color: #008000;
 }
+
 .servicesText:hover {
     border: 1px solid #008000;
 }
+
+
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -66,7 +84,6 @@
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
     text-align: center;
 }
 
